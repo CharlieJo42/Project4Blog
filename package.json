@@ -1,0 +1,29 @@
+{
+  "name": "Project4Blog",
+  "version": "1.0.0",
+  "description": "Tutorial followed along from here: https://www.youtube.com/watch?v=1NrHkjlWVhM&t=87s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieJo42/Project4Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieJo42/Project4Blog/issues"
+  },
+  "homepage": "https://github.com/CharlieJo42/Project4Blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
